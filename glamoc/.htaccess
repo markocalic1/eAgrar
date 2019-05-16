@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^glamoc.eagrar.eu[nc]
+RewriteRule ^(.*)$ http://www.glamoc.eagrar.eu/$1 [r=301,nc]
+ 
